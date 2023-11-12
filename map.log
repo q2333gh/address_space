@@ -1,0 +1,50 @@
+476875:   btop
+0000556c92c58000     28K r---- btop
+0000556c92c5f000    952K r-x-- btop
+0000556c92d4d000    168K r---- btop
+0000556c92d77000      4K r---- btop
+0000556c92d78000      4K rw--- btop
+0000556c92d79000     32K rw---   [ anon ]
+0000556c93434000    820K rw---   [ anon ]
+00007fb680000000    560K rw---   [ anon ]
+00007fb68008c000  64976K -----   [ anon ]
+00007fb6859fe000      4K -----   [ anon ]
+00007fb6859ff000   8192K rw---   [ anon ]
+00007fb6861ff000      4K -----   [ anon ]
+00007fb686200000   8192K rw---   [ anon ]
+00007fb686a00000   8668K r---- locale-archive
+00007fb687400000    160K r---- libc.so.6
+00007fb687428000   1620K r-x-- libc.so.6
+00007fb6875bd000    352K r---- libc.so.6
+00007fb687615000     16K r---- libc.so.6
+00007fb687619000      8K rw--- libc.so.6
+00007fb68761b000     52K rw---   [ anon ]
+00007fb687719000     56K r---- libm.so.6
+00007fb687727000    496K r-x-- libm.so.6
+00007fb6877a3000    364K r---- libm.so.6
+00007fb6877fe000      4K r---- libm.so.6
+00007fb6877ff000      4K rw--- libm.so.6
+00007fb687800000    616K r---- libstdc++.so.6.0.30
+00007fb68789a000   1092K r-x-- libstdc++.so.6.0.30
+00007fb6879ab000    444K r---- libstdc++.so.6.0.30
+00007fb687a1a000      4K ----- libstdc++.so.6.0.30
+00007fb687a1b000     44K r---- libstdc++.so.6.0.30
+00007fb687a26000     12K rw--- libstdc++.so.6.0.30
+00007fb687a29000     12K rw---   [ anon ]
+00007fb687a37000    160K rw---   [ anon ]
+00007fb687a5f000     12K r---- libgcc_s.so.1
+00007fb687a62000     92K r-x-- libgcc_s.so.1
+00007fb687a79000     16K r---- libgcc_s.so.1
+00007fb687a7d000      4K r---- libgcc_s.so.1
+00007fb687a7e000      4K rw--- libgcc_s.so.1
+00007fb687a94000      8K rw---   [ anon ]
+00007fb687a96000      8K r---- ld-linux-x86-64.so.2
+00007fb687a98000    168K r-x-- ld-linux-x86-64.so.2
+00007fb687ac2000     44K r---- ld-linux-x86-64.so.2
+00007fb687ace000      8K r---- ld-linux-x86-64.so.2
+00007fb687ad0000      8K rw--- ld-linux-x86-64.so.2
+00007ffeafe38000    132K rw---   [ stack ]
+00007ffeaff91000     16K r----   [ anon ]
+00007ffeaff95000      8K r-x--   [ anon ]
+ffffffffff600000      4K --x--   [ anon ]
+ total            98652K

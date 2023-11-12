@@ -1,0 +1,120 @@
+  PID User     Command                         Swap      USS      PSS      RSS 
+ 1564 btwl     /usr/bin/podman                  192        4       16     2196 
+58522 btwl     /home/btwl/.cache/dfinity/v      264       12       34     2696 
+205524 btwl     /usr/bin/bwrap --args 26 --       92        0       36     1872 
+205519 btwl     /usr/bin/bwrap --args 30 --      156        0       37     1188 
+205518 btwl     /usr/bin/bwrap --args 30 --       88        4       38     1872 
+ 4163 btwl     /usr/bin/bash --init-file /     1824        4       42     2800 
+ 2376 btwl     sh -c /usr/bin/ibus-daemon        84       20       56     1672 
+205525 btwl     /usr/bin/bwrap --args 26 --      124       40       75     1296 
+478827 btwl     sleep 180                          0      100      123     2376 
+478747 btwl     sleep 180                          0      104      127     2380 
+ 2469 btwl     /usr/libexec/ibus-dconf          788       88      137     6260 
+472100 btwl     sh /home/btwl/.vscode-serve        0      100      137     1820 
+312572 btwl     /bin/sh /usr/lib/update-not        0      108      144     1764 
+446385 btwl     cat /tmp/vscode-bash-debug-        0      136      151     2320 
+ 2251 btwl     /usr/libexec/gnome-shell-ca     2996        4      204     8332 
+446387 btwl     bash -c function cleanup()
+        0       88      272     1616 
+ 2301 btwl     /usr/libexec/goa-identity-s     1968      192      293     9456 
+ 1495 btwl     /usr/libexec/gdm-wayland-se      320      264      310     6020 
+446381 btwl     bash -c function cleanup()
+        0       88      334     3932 
+205522 btwl     /usr/bin/xdg-dbus-proxy --a      228      300      342     5828 
+ 1456 btwl     /snap/snapd-desktop-integra     1128       28      368      712 
+58458 btwl     /home/btwl/.cache/dfinity/v     3356      344      369     3284 
+58444 btwl     /home/btwl/bin/dfx start        1908      328      371     3964 
+ 1719 btwl     /usr/libexec/gnome-session-        4      480      520     5732 
+472306 btwl     bash                               0      388      534     3988 
+ 2594 btwl     /usr/libexec/ibus-engine-si      328      560      614     6808 
+472040 btwl     bash                               0      512      681     4316 
+ 1806 btwl     /usr/bin/dbus-daemon --conf       64      620      711     4160 
+58868 btwl     /home/btwl/.cache/dfinity/v    21572      684      716     3452 
+ 1815 btwl     /usr/libexec/xdg-permission        0      676      719     6444 
+ 1657 btwl     /usr/libexec/gvfsd-fuse /ru      312      648      756     6292 
+ 2406 btwl     /usr/libexec/gsd-screensave        0      716      767     6680 
+ 2378 btwl     /usr/libexec/gsd-a11y-setti        0      764      817     6940 
+ 1788 btwl     /usr/libexec/at-spi-bus-lau      112      792      846     7152 
+ 2397 btwl     /usr/libexec/gsd-print-noti      912      716      869     8072 
+ 2317 btwl     /usr/libexec/dconf-service         0      844      883     5948 
+ 2305 btwl     /usr/libexec/gvfs-mtp-volum        0      840      885     6660 
+ 2862 btwl     /usr/libexec/gvfsd-metadata        0      824      905     6796 
+ 2292 btwl     /usr/libexec/gvfs-goa-volum        0      876      924     6792 
+ 2359 btwl     /usr/libexec/at-spi2-regist        0      876      926     7228 
+ 1643 btwl     /usr/libexec/gvfsd               284      816      932     7248 
+58563 btwl     /home/btwl/.cache/dfinity/v     2096      944      944      948 
+ 2403 btwl     /usr/libexec/gsd-rfkill            0      908      959     6860 
+ 2271 btwl     /usr/libexec/goa-daemon         7008      664      964    13880 
+ 2288 btwl     /usr/libexec/gvfs-gphoto2-v        0     1132     1180     7076 
+ 1809 btwl     /usr/libexec/xdg-document-p       44     1080     1196     7812 
+ 2387 btwl     /usr/libexec/gsd-housekeepi        0     1132     1203     7864 
+ 2412 btwl     /usr/libexec/gsd-smartcard         0     1160     1307     7448 
+ 2515 btwl     /usr/libexec/ibus-portal         280     1264     1316     7612 
+ 2438 btwl     /usr/libexec/gsd-sound             0     1332     1396     8832 
+ 2346 btwl     /usr/libexec/gvfsd-trash --      308     1324     1445     8224 
+ 2318 btwl     /usr/libexec/gvfs-afc-volum        0     1308     1460     7564 
+ 1451 btwl     /usr/bin/pipewire-media-ses      116     1176     1495     5764 
+ 1450 btwl     /usr/bin/pipewire                108     1256     1586     6052 
+ 2452 btwl     /usr/libexec/gsd-disk-utili      280     1488     1597     6944 
+ 1466 btwl     /usr/bin/gnome-keyring-daem      468     1548     1602     6296 
+ 1562 btwl     /usr/libexec/gnome-session-      236     1688     1845    12408 
+ 2408 btwl     /usr/libexec/gsd-sharing          44     1720     1939     8392 
+ 1504 btwl     /usr/bin/dbus-daemon --sess      428     1804     1946     5612 
+473439 btwl     /usr/bin/bash                      0     1752     1954     5836 
+ 2726 btwl     /usr/bin/gjs /usr/share/gno     4656     1140     2032    14512 
+ 2384 btwl     /usr/libexec/gsd-datetime        268     1932     2055    12392 
+477258 btwl     /usr/bin/bash --init-file /        0     1848     2056     6060 
+481110 btwl     /usr/bin/bash --init-file /        0     1852     2060     6080 
+478731 btwl     /usr/bin/bash --init-file /        0     1876     2083     6100 
+ 2561 btwl     /usr/libexec/gsd-printer           0     2076     2157    10700 
+ 2273 btwl     /usr/libexec/gvfs-udisks2-v      376     2180     2324     9816 
+481185 btwl     fish                               0     1812     2411     8520 
+ 2357 btwl     /usr/bin/gjs /usr/share/gno     3636     1776     2668    15180 
+478829 btwl     fish                               0     2100     2706     8864 
+476875 btwl     btop                               0     2676     2771     7212 
+ 2380 btwl     /usr/bin/ibus-daemon --pane     2764     2836     2888     9200 
+477275 btwl     fish                               0     2472     3070     9208 
+ 1737 btwl     /usr/libexec/gnome-session-      136     2936     3115    14008 
+ 2258 btwl     /usr/libexec/evolution-sour     1300     3240     3634    15668 
+ 2324 btwl     /usr/libexec/evolution-addr     1112     2932     3692    14820 
+ 2240 btwl     /usr/libexec/xdg-desktop-po      412     3292     3698    13300 
+58945 btwl     /home/btwl/.cache/dfinity/v    16740     4264     4296     7068 
+ 1339 btwl     /lib/systemd/systemd --user      132     3924     4579     8668 
+ 2283 btwl     /usr/libexec/evolution-cale     1424     3928     4676    17404 
+ 2388 btwl     /usr/libexec/gsd-keyboard       2896     4928     5239    18556 
+473656 btwl     fish                               0     4712     5304    11400 
+ 2445 btwl     /usr/libexec/gsd-wacom          3080     5032     5355    18592 
+ 2394 btwl     /usr/libexec/gsd-power          3352     5428     5841    20912 
+ 2382 btwl     /usr/libexec/gsd-color          3396     5536     5985    20980 
+ 2390 btwl     /usr/libexec/gsd-media-keys     3368     5592     6112    21236 
+174322 btwl     /usr/bin/seahorse --gapplic    12420     5336     6198    22640 
+205510 btwl     /usr/lib/x86_64-linux-gnu/w     6404     5532     6409    20428 
+ 1454 btwl     /usr/bin/pulseaudio --daemo     3288     5792     6485    16364 
+ 4396 btwl     update-notifier                 5052     5804     6687    21460 
+ 2858 btwl     /usr/libexec/ibus-x11           1000     6812     7213    20364 
+174601 btwl     /usr/bin/snap userd             2524     7344     7349     8580 
+ 2699 btwl     /usr/libexec/xdg-desktop-po     3636     7676     8092    21340 
+78228 btwl     /usr/bin/gnome-calendar --g    11160     7096     8145    26296 
+ 2494 btwl     /usr/libexec/ibus-extension     5272     8656     8953    21896 
+ 2249 btwl     /usr/libexec/xdg-desktop-po     2940     8648     9061    21504 
+ 2764 btwl     /usr/libexec/gsd-xsettings     11800     8764     9437    25464 
+ 2436 btwl     /usr/libexec/evolution-data    10000     8208     9497    28512 
+312625 btwl     /usr/lib/update-notifier/sy     1988    10980    12451    30792 
+472464 btwl     /home/btwl/.vscode-server/c        0    14120    14120    14124 
+ 2231 btwl     /snap/snapd-desktop-integra     3332    15248    15588    15932 
+481445 btwl     /usr/bin/python3 /usr/bin/s        0    17300    18203    23272 
+472183 btwl     /home/btwl/.vscode-server/b        0    17916    25027    56420 
+ 2766 btwl     gjs /usr/share/gnome-shell/    15832    18360    26848    54100 
+205488 btwl     /usr/libexec/gnome-shell-po    26172    29928    32464    58060 
+173929 btwl     gnome-control-center           21768    30360    33106    58124 
+472196 btwl     /home/btwl/.vscode-server/b        0    32992    40317    72348 
+ 2593 btwl     /usr/bin/Xwayland :0 -rootl    20616    41304    41594    48248 
+472516 btwl     /home/btwl/.vscode-server/e        0    43868    43868    43872 
+472505 btwl     /home/btwl/.vscode-server/b        0    53112    60210    91496 
+205532 btwl     /usr/lib/x86_64-linux-gnu/w     9216    66296    67742    87864 
+ 2650 btwl     /usr/libexec/tracker-miner-     4520    68456    69018    79216 
+226725 btwl     /usr/bin/python3 /usr/bin/u    24532    71240    75485   101548 
+472110 btwl     /home/btwl/.vscode-server/b        0    80700    89268   122804 
+ 1810 btwl     /usr/bin/gnome-shell          154236    90296   100982   134144 
+58469 btwl     /home/btwl/.cache/dfinity/v    78788   128392   128431   131672 
+472172 btwl     /home/btwl/.vscode-server/b        0   324408   332976   366508 

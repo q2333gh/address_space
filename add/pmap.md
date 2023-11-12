@@ -29,6 +29,22 @@ bss: . It’s a term that originated from an IBM assembler program, where it was
 
 
 # Load the a.out into memory and run :
+Q:so what kernel program can load a.out and run it in linux ?  
+A:when type ./a.out in bash. the bash mainly call fork() and execve()
+1.The shell parses the command line and identifies ./a.out as the command to be executed1.
+2.The shell calls the fork() system function to create a new process2.
+3.In the new child process, the shell calls the execve() system function, passing the path to the a.out file and any arguments2.
+4.The execve() function is a system call, so control passes from the shell to the kernel2.
+5.Inside the kernel, the program loader takes over3. The loader is part of the kernel and is responsible for loading the program into memory and starting its execution3.
+6.The loader checks the file to make sure it’s a valid executable (for example, it might check the “magic number” at the start of the file)1.
+7.The loader maps the sections of the executable file into memory. This includes the text segment (the machine code of the program), the data segment (initialized global and static variables), and the BSS segment (uninitialized global and static variables).
+8.The loader also sets up the stack and the heap for the new process.
+9.Once everything is set up, the loader transfers control to the entry point of the program, which is usually the main() function for C programs3.
+10.The a.out program is now running. When it finishes, it will return control to the kernel, which will then clean up the process2.
+
+
+
+
 the running program address-space become: 
 
 The kernel code segment (__KERNEL_CS)   

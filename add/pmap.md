@@ -42,6 +42,11 @@ A:when type ./a.out in bash. the bash mainly call fork() and execve()
 9.Once everything is set up, the loader transfers control to the entry point of the program, which is usually the main() function for C programs3.
 10.The a.out program is now running. When it finishes, it will return control to the kernel, which will then clean up the process2.
 
+the "loader" is mianly the syscall: fork() and execve() (execve is more complex and important) 
+fork() gives a.out a bunch of regs.(maybe regard it as worker.)
+execve gives a.out space to run . and store its code and data (maybe regard it as warehouse)
+see exec impl of xv6-riscv 
+/kernel/exec.c of int exec(char *path, char **argv)
 
 
 
